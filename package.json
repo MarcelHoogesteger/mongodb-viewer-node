@@ -1,0 +1,17 @@
+{
+  "name": "mongodb-viewer",
+  "version": "1.0.0",
+  "description": "MongoDb viewer web client",
+  "main": "app.js",
+  "scripts": {
+    "test": "app_test.js"
+  },
+  "author": "Marcel Hoogesgteger",
+  "license": "MIT",
+  "dependencies": {
+    "mongo-express": "^0.20.0"
+  },
+  "scripts": {
+    "start": "node node_modules/mongo-express/app.js"
+  }
+}
